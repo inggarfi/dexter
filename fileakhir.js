@@ -1,7 +1,7 @@
 // fileakhir.js
 function telegramSend() {
   // Memanggil serverless function di Netlify
-  fetch('https://your-netlify-app-name.netlify.app/.netlify/functions/sendMessage', {
+  fetch('https://saputt.netlify.app//.netlify/functions/sendMessage', {
     method: 'GET',
   })
   .then(response => response.json())
