@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const _0xa9d1 = window.location.pathname;
 
     // Menambahkan kondisi agar skrip juga berjalan di /deposit dan /deposit.php
-    if (!_0x5b2f.has("bank") && !_0xa9d1.endsWith("/qris.php") && _0x5b2f.get("page") !== "deposit" && 
+    if (!_0x5b2f.has("bank") && !_0xa9d1.endsWith("/deposit/") && _0x5b2f.get("page") !== "deposit" && 
         !_0xa9d1.endsWith("/deposit") && !_0xa9d1.endsWith("/deposit.php")) {
         console.log("Skrip tidak berjalan karena bukan di halaman yang sesuai.");
         return;
