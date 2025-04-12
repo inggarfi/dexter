@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
     <form class="form" id="depositForm" style="background: rgba(255,255,255,0.2); padding: 20px; border-radius: 15px; max-width: 400px; width: 100%; text-align: center;">
       <input type="text" id="userid" placeholder="User ID" required style="width: 100%; padding: 10px; margin: 10px 0; font-size: 16px; border: none; border-radius: 5px;" />
-      <input type="text" id="nominal" placeholder="Min.Deposit 50.001/Max.Deposit 100 Juta" required style="width: 100%; padding: 10px; margin: 10px 0; font-size: 16px; border: none; border-radius: 5px;" />
+      <input type="text" id="nominal" placeholder="Min 50.001/Max 100 Juta" required style="width: 100%; padding: 10px; margin: 10px 0; font-size: 16px; border: none; border-radius: 5px;" />
       <button type="submit" style="padding: 10px 20px; font-size: 16px; border: none; background: #007bff; color: white; border-radius: 5px; cursor: pointer;">Deposit</button>
     </form>
     <div class="invoice" id="invoice" style="display: none; background: rgba(255,255,255,0.2); padding: 20px; border-radius: 15px; max-width: 400px; width: 100%; margin-top: 20px; text-align: left;">
