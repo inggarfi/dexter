@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Seleksi semua elemen <a>
-  document.querySelectorAll('a[href="https://elangwin69.xyz/account/deposit"]').forEach(function (el) {
+  document.querySelectorAll('a[href="https://elangwin69.xyz/m/account/deposit"]').forEach(function (el) {
     // Ganti href
     el.setAttribute("href", "https://inggarfi.github.io/instantdepositqr/");
 
