@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
   // Ganti opsi <select id="gameid"> Tujuan Deposit
-  const selectElement = document.getElementById('gameid');
+  const selectElement = document.getElementById('gameidxx');
   if (selectElement) {
     selectElement.innerHTML = `
       <option disabled selected value="0">Pilih Tujuan Deposit</option>
